@@ -16,7 +16,7 @@ jQuery(function ($) {
 
     (function () {
         $(window).scroll(function () {
-            if ($(this).scrollTop() >= 100) {
+            if ($(this).scrollTop() >= 150) {
                 $('nav.navbar').addClass('sticky-nav');
                 $('#navbar-brand-container-lower-heading').show();
             }
@@ -36,7 +36,7 @@ jQuery(function ($) {
             e.preventDefault();
             var $anchor = $(this);
             $('html, body').stop().animate({
-                scrollTop : $($anchor.attr('href')).offset().top
+                scrollTop : $($anchor.attr('href')).offset().top - 100
             }, 1500, 'easeInOutExpo');
         });
     }());
