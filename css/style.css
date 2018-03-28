@@ -1350,6 +1350,15 @@ Footer
 }
 .footer-end{
   display: block;
+  margin-left: 100px;
+  line-height: 1.1em;
+}
+.footer-end-name > a{
+  color: lightcyan;
+  font-style: italic;
+}
+.footer-end-name > a:hover{
+  color: cyan;
 }
 .all-right{
   padding: 0;
