@@ -1,6 +1,7 @@
 "use strict";
 
 var dateUpdater = $('#date');
+var dateReminderRightContainer = $('#date-reminder-right-container');
 var navbarDateUpdater = $('#navbar-brand-container-lower-heading');
 console.log(dateUpdater);
 
@@ -9,10 +10,22 @@ var currentDate = new Date();
 var dateDifference = conferenceDate.getTime() - currentDate.getTime();
 var day = 1000 * 60 * 60 * 24;
 dateDifference /= day;
+dateDifference = Math.ceil(dateDifference);
 
-dateUpdater.append( Math.ceil(dateDifference) );
-navbarDateUpdater.append(Math.ceil(dateDifference) + '<span class="navbar-brand-container-lower-heading-reminder">days left</span>');
-navbarDateUpdater.hide();
+if(dateDifference > 1) {
+    dateUpdater.append( dateDifference );
+    navbarDateUpdater.append(dateDifference + '<span class="navbar-brand-container-lower-heading-reminder">days left</span>');
+    navbarDateUpdater.hide();
+} else if(dateDifference === 1){
+    dateUpdater.append( dateDifference );
+    navbarDateUpdater.append(dateDifference + '<span class="navbar-brand-container-lower-heading-reminder">day left</span>');
+    navbarDateUpdater.hide();
+}
+else {
+    dateUpdater.hide();
+    dateReminderRightContainer.hide();
+    navbarDateUpdater.hide();
+}
 
 // Google Maps
 function initializeMap() {

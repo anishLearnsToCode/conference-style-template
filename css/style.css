@@ -391,12 +391,12 @@ button:focus,.btn:focus,.btn:active:focus {
 .jumbotron .content h1 {
   color: lightblue;
   font-family: 'Roboto', SansSerif;
-  font-weight: bold;
+  font-weight: 300;
 }
 
 .jumbotron .content h3 {
   color: lightcyan;
-  font-weight: bold;
+  font-weight: 200;
   font-size: 2em;
   margin-bottom: 0;
 }
@@ -415,9 +415,11 @@ button:focus,.btn:focus,.btn:active:focus {
 }
 .jumbotron .content .event-date {
   margin-bottom: 10px;
+  font-weight: 100;
 }
 .jumbotron .content .college{
   font-size: 1.3em;
+  font-weight: 100;
 }
 
 .jumbotron .btn {
@@ -1050,7 +1052,7 @@ Places to Explore
   background-image: url("../assets/Places to Explore/lotus temple/lotus-temple.jpg");
 }
 #red-fort{
-  background-image: url("../assets/Places to Explore/red-fort/red-fort-overlay.jpg");
+  background-image: url("../assets/Places to Explore/red-fort/red-fort.jpg");
 }
 #fatehpur-sikhri{
   background-image: url('../assets/Places to Explore/fatehpur sikhri/fs-overlay.jpg');
