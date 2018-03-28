@@ -832,6 +832,15 @@ Keynote Speakers
   color: darkred;
 }
 
+/*-------------------
+Important Dates
+---------------------*/
+#important-dates{
+}
+#important-dates table{
+  margin-top: 50px;
+}
+
 /*--------------------
 Places to Explore
 --------------------*/
