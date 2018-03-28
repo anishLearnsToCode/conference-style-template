@@ -1039,7 +1039,8 @@ Places to Explore
   /*background-color: #2e6da4;*/
 }
 .location-timings-container{
-  color: antiquewhite;
+  /*color: antiquewhite;*/
+  color: navajowhite;
   margin: 40px 0 0 0;
   /*background-color: wheat;*/
   display: inline-block;
@@ -1069,7 +1070,6 @@ Places to Explore
 }
 #fatehpur-sikhri{
   background-image: url('../assets/Places to Explore/fatehpur sikhri/Fatehpur_Sikri_Panch_Mahal.jpg');
-  background-size: auto 115%;
 }
 #old-fort{
   background-image: url("../assets/Places to Explore/old-fort/old-fort-overlay.jpg");
@@ -1082,6 +1082,9 @@ Places to Explore
 }
 #india-gate{
   background-image: url("../assets/Places to Explore/india-gate/india-gate.jpg");
+}
+#taj-mahal{
+  background-image: url('../assets/Places to Explore/taj-mahal/taj-mahal.jpg');
 }
 
 
@@ -1099,7 +1102,7 @@ Places to Explore
 
   box-shadow: 0 0 10px 1px lightgrey;
 
-  transition: all 0.4s;
+  transition: all 0.4s, background-blend-mode 0.4s;
 }
 .box:hover{
   background-size: auto 105%;
@@ -1367,7 +1370,7 @@ Footer
   font-style: italic;
 }
 .footer-end-name > a:hover{
-  color: cyan;
+  color: navajowhite;
 }
 .all-right{
   padding: 0;
