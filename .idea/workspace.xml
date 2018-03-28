@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfdd8ca3-8dcc-4110-934c-edc0178fd967" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/Lotus temple.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/lotus_temple_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -22,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="961">
-              <caret line="727" column="0" lean-forward="true" selection-start-line="727" selection-start-column="0" selection-end-line="727" selection-end-column="0" />
+            <state relative-caret-position="239">
+              <caret line="763" column="85" lean-forward="false" selection-start-line="763" selection-start-column="85" selection-end-line="763" selection-end-column="85" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -64,8 +63,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="1045" column="16" lean-forward="false" selection-start-line="1045" selection-start-column="16" selection-end-line="1045" selection-end-column="16" />
+            <state relative-caret-position="395">
+              <caret line="1077" column="82" lean-forward="false" selection-start-line="1077" selection-start-column="82" selection-end-line="1077" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -276,7 +275,7 @@
       <workItem from="1522211659251" duration="33000" />
       <workItem from="1522212299310" duration="1128000" />
       <workItem from="1522220102662" duration="4989000" />
-      <workItem from="1522234573599" duration="5143000" />
+      <workItem from="1522234573599" duration="5930000" />
     </task>
     <task id="LOCAL-00001" summary="Have changed the top width of the jumbotron sections and fixed the error where the remaining days weren't showing">
       <created>1521894466618</created>
@@ -366,7 +365,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121455000" />
+    <option name="totallyTimeSpent" value="122242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -886,16 +885,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="1045" column="16" lean-forward="false" selection-start-line="1045" selection-start-column="16" selection-end-line="1045" selection-end-column="16" />
+        <state relative-caret-position="395">
+          <caret line="1077" column="82" lean-forward="false" selection-start-line="1077" selection-start-column="82" selection-end-line="1077" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="961">
-          <caret line="727" column="0" lean-forward="true" selection-start-line="727" selection-start-column="0" selection-end-line="727" selection-end-column="0" />
+        <state relative-caret-position="239">
+          <caret line="763" column="85" lean-forward="false" selection-start-line="763" selection-start-column="85" selection-end-line="763" selection-end-column="85" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
