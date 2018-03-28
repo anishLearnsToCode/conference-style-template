@@ -1039,9 +1039,11 @@ Places to Explore
   /*background-color: #2e6da4;*/
 }
 .location-timings-container{
+  color: antiquewhite;
   margin: 40px 0 0 0;
   /*background-color: wheat;*/
   display: inline-block;
+  font-weight: 300;
 }
 .location-timings{
   margin: 0 ;
@@ -1060,7 +1062,7 @@ Places to Explore
 
 /* Locations */
 #lotus-temple{
-  background-image: url("../assets/Places to Explore/lotus temple/lotus-temple.jpg");
+  background-image: url("../assets/Places to Explore/lotus temple/lotus_temple_2.jpg");
 }
 #red-fort{
   background-image: url("../assets/Places to Explore/red-fort/red-fort.jpg");
