@@ -192,7 +192,8 @@ button:focus,.btn:focus,.btn:active:focus {
   padding: 0;
   height: auto;
   width: 30%;
-  margin: 5px 0 !important;
+  /*margin: 5px 0 !important;*/
+  margin: 0;
   background-color: transparent;
 }
 .navbar-brand-container {
@@ -272,7 +273,8 @@ button:focus,.btn:focus,.btn:active:focus {
 /*Navigation Style*/
 
 .main-menu .navbar-right {
-  margin-top: 3.5%;
+  /*margin-top: 3.5%;*/
+  margin-right: 0;
   width: 70%;
   margin-right: 0;
   /*background-color: yellow;*/
@@ -474,6 +476,7 @@ button:focus,.btn:focus,.btn:active:focus {
  *---------------------------*/
 .section-wrapper {
   /*margin: 100px auto;*/
+  min-height: 100vh;
 }
 
 /*---------------------------
