@@ -963,14 +963,14 @@ Places to Explore
   display: inline-block;
   height: 400px;
   width: 680px;
-  background: rebeccapurple;
+  background: lightcyan;
 }
 
 .square-box{
   display: inline-block;
   height: 400px;
   width: 400px;
-  background: gray;
+  background: lightcyan;
 }
 
 .tall-box{
