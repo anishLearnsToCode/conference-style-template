@@ -1282,23 +1282,23 @@ Venue
   font-size: 24px;
   font-weight: 100;
   /*background-color: rebeccapurple;*/
-  background-color: lightblue;
-  color: white;
-  border: 0 none;
+  background-color: navy;
   box-shadow: none;
   padding: 5px 15px;
   border-radius: 5px;
-  /*color: #1b6d85;*/
-  color: midnightblue;
   border: 1px solid #1b6d85;
 
   transition: all 0.4s;
+}
+#register-button > a{
+  color: white;
 }
 #register-button:hover{
   background-color: darkslategray;
   color: ghostwhite;
   border-color: darkslategray;
 }
+
 
 /*-------------
 Footer
